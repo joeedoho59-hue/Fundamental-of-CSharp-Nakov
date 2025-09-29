@@ -2,9 +2,8 @@ using System;
 
 namespace Joe_Last_Operations
 {
-    internal class Program
-    {
-        static void Main(string[] args){}
+    class Program{
+        static void Main(string[] args){
                     // Write a program that asks the user for their age and then displays the year that they will turn after 10 years.
                     Console.WriteLine("What is your age?");
                     int age = int.Parse(Console.ReadLine());
