@@ -21,9 +21,9 @@ args = "ConsoleApp"
 name = "ConsoleApp"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "cd ConsoleApp1 && dotnet run"
-
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd Conversions && dotnet run"
